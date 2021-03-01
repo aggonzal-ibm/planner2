@@ -32,14 +32,15 @@
         )
     (:goal
       (and
+       (fuera_ambulancia paciente4  )
+        (paciente_locacion paciente4 locacion1)
         (fuera_ambulancia paciente1   )
         (paciente_locacion paciente1  locacion1)
         (fuera_ambulancia paciente2   )
         (paciente_locacion paciente2  locacion1)
         (fuera_ambulancia paciente3   )
         (paciente_locacion paciente3  locacion1)
-        (fuera_ambulancia paciente4  )
-        (paciente_locacion paciente4 locacion1)
+       
        ))
        
        
